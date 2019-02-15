@@ -1,6 +1,6 @@
 /*eslint-env browser*/
 var i;
-for (i = 0; i <= 16; i++) {
+for (i = 0; i <= 15; i++) {
     if ((i % 2) === 0) {
         window.document.write(i + " is even <br>");
     } else {

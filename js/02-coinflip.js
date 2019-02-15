@@ -1,6 +1,6 @@
 /*eslint-env browser*/
 var coinFlip = Math.round(Math.random());
-var choice = window.prompt("Choose: Heads or Tails?");
+var choice = window.prompt("Choose: heads or tails?");
 
 if (coinFlip === 0) {
     coinFlip = "heads";
@@ -13,9 +13,9 @@ if (coinFlip === 0) {
 } else if (coinFlip === 1) {
     coinFlip = "tails";
     if (coinFlip === choice) {
-        window.alert("The flip was Tails and you chose Tails...you win!");
+        window.alert("The flip was tails and you chose tails...you win!");
     } else if (coinFlip !== choice) {
-        window.alert("The flip was Tails but you chose Heads...you lose!");
+        window.alert("The flip was tails but you chose heads...you lose!");
     }
 }
 
